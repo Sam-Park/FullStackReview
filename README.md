@@ -4,11 +4,10 @@ Flight logger aims to be an easy to use flight log for pilots and those in train
 to become one. Upload planes and then document your flights on each plane with the specific flight information such as hours flown in daylight and nighttime.  Total hours flown are also aggregated and separated into their specific fields and also by license type.
 
 ## Table of Contents(#toc)
--[Main Tech Stack](#mts)
-    - [Front end Libraries](#fel)
-    - [Back end Libraries](#bel)
-    - [CSS](#css)
-
+* [Main Tech Stack](#mts)
+    * [Front end Libraries](#fel)
+    * [Back end Libraries](#bel)
+    * [CSS](#css)
 
 ## [Main Tech Stack](#mts)
 
