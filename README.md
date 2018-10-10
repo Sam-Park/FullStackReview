@@ -5,9 +5,9 @@ to become one. Upload planes and then document your flights on each plane with t
 
 ## Table of Contents(#toc)
 -[Main Tech Stack](#mts)
--[Front end Libraries](#fel)
--[Back end Libraries](#bel)
--[CSS](#css)
+    - [Front end Libraries](#fel)
+    - [Back end Libraries](#bel)
+    - [CSS](#css)
 
 
 ## [Main Tech Stack](#mts)
