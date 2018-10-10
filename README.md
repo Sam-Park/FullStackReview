@@ -1,6 +1,6 @@
 # Falcano
 
-Falcano aims to be an easy to use flight log for new and seasoned pilots alike. Create a record of
+    Falcano aims to be an easy to use flight log for new and seasoned pilots alike. Create a record of
 your planes and then document your flights and record your hours. It is easy to use, and even         easier to look at. No need to calculate your total hours either, even by specific license type, we    do it all for you! Time flies, but you won't ever lose track of your hours again with Falcano.
 
 
@@ -98,7 +98,7 @@ It will be a bit more involved with the backend(Django). The link below will get
 [heroku](https://devcenter.heroku.com/articles/git)
 
 
-## Justifications(#just)
+## [Justifications](#just)
  * [Django]
     - There were a few reasons behind choosing Django for this project. First and foremost we knew having   sql database would make using relational data much easier. The admin interface was also a factor,
       making testing easier, along with debugging. Also being exposed to Django at the end of our course drove us to choose Django.
