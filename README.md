@@ -10,6 +10,15 @@ your planes and then document your flights and record your hours. It is easy to 
     * [Back end Libraries](#bel)
     * [CSS](#css)
     * [Justifications](#just)
+* [Basic Overview](#bo)
+    * [Home Page](#home)
+    * [Flights](#flights)
+    * [Aircraft](#aircraft)
+    * [Instructors](#instructors)
+    * [Settings](#sett)
+    * [Billing](#bill)
+* [Routes](#routes)
+
 
 
 ## [Main Tech Stack](#mts)
@@ -99,6 +108,7 @@ It will be a bit more involved with the backend(Django). The link below will get
 
 
 ## [Justifications](#just)
+
  * [Django]
     - There were a few reasons behind choosing Django for this project. First and foremost we knew having   sql database would make using relational data much easier. The admin interface was also a factor,
       making testing easier, along with debugging. Also being exposed to Django at the end of our course drove us to choose Django.
@@ -117,8 +127,37 @@ It will be a bit more involved with the backend(Django). The link below will get
     - We chose to use this mostly for the modals, as we were already familiar with reactstrap's modals from the course.
 
 
-## Basic Overview 
- *[HomePage]
+## [Basic Overview](#bo)
+ * [HomePage](#home)
+    Greets you with a graph of your total hours by license type split up by the specific hours flown. Which hours displayed are customizable by clicking the labels at the top of the graph.
+
+ * [Flights](#flights)
+    Where you record your flight, with various types of hours flown, which aircraft you used, and even a space for and html snippet/link to your flight plan on [Skyvector](https://www.skyvector.com)
+
+ * [Aircraft](#aircraft)
+    Where you record which plane you flew on, and where you can upload a picture of it as well if you wish.
+
+ * [Instructors](#instructors)
+    Keep track of all of your instructors information as well as a picture!
+
+ * [Settings](#sett)
+    You can change your password here.
+
+ * [Billing](#bill)
+    Unlock the app's premium features here!
+
+## [Routes](#routes)
+
+ * [GET] api/flights/   -view a list of flights created by the user
+ * [GET/PUT] api/flights/(flightID)/ -view a specific flight // edit a specific flight
+ * [GET] api/aircraft/  -view list of aircraft created by the user user
+ * [GET/PUT] api/aircraft/(aircraftID)/ -view a specific aircraft // edit a specific aircraft
+ * [GET] api/instructors/ -view list of instructors created by the user
+ * [GET/PUT] api/instructor/(instructorID)/ -view a specific instructor // edit a specific instructor
+ * [GET] api/filtedflights/(aircraftID)/ -view a list of flights for a specific aircraft
+ * [POST] api/passwordchange/  -allows user to change password.
+ * [GET] api/joined/ -view flights sorted by license type 
+
 
 ## License
 
