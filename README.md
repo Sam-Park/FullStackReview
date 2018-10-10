@@ -3,14 +3,14 @@
 Flight logger aims to be an easy to use flight log for pilots and those in training
 to become one. Upload planes and then document your flights on each plane with the specific flight information such as hours flown in daylight and nighttime.  Total hours flown are also aggregated and separated into their specific fields and also by license type.
 
--Table of Contents(#toc)
+## Table of Contents(#toc)
 -[Main Tech Stack](#mts)
 -[Front end Libraries](#fel)
 -[Back end Libraries](#bel)
 -[CSS](#css)
 
 
-[Main Tech Stack](#mts)
+## [Main Tech Stack](#mts)
 
 * [Django](https://www.djangoproject.com/) - Backend database management
 * [React](https://reactjs.org/) - The web framework used
@@ -18,7 +18,7 @@ to become one. Upload planes and then document your flights on each plane with t
 * [Axios](https://www.npmjs.com/package/axios) - Promise based HTTP client
 * [Stripe](https://stripe.com/) - Online payments company
 
-[Front end libraries](#fel)
+## [Front end libraries](#fel)
 
 * [Cloudinary](https://www.cloudinary.com)
 * [Parser](https://www.npmjs.com/package/html-react-parser) - HTML to React parser
@@ -29,7 +29,7 @@ to become one. Upload planes and then document your flights on each plane with t
 * [@material-ui/core](http://material-ui.com/)
 * [bootstrap](https://getbootstrap.com/)
 
-[Back end libraries](#bel)
+## [Back end libraries](#bel)
 
 ## [CSS](#css)
 
