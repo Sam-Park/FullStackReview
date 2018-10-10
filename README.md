@@ -1,6 +1,6 @@
 # Falcano
 
-    -Falcano aims to be an easy to use flight log for new and seasoned pilots alike. Create a record of
+Falcano aims to be an easy to use flight log for new and seasoned pilots alike. Create a record of
 your planes and then document your flights and record your hours. It is easy to use, and even         easier to look at. No need to calculate your total hours either, even by specific license type, we    do it all for you! Time flies, but you won't ever lose track of your hours again with Falcano.
 
 
